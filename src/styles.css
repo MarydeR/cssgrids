@@ -21,3 +21,31 @@ h3 {
   margin: 30px auto;
   width: 150px;
 }
+
+.boxes1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.boxes2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5px;
+}
+
+.boxes3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 40px 20px);
+  grid-gap: 5px;
+}
+
+.box {
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  font-size: 13px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
